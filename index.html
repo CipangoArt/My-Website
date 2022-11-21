@@ -1,62 +1,162 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página muito sexy</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav>
-  <img class="header" img width="100%" src="https://placekitten.com/g/3000/200" alt=""> 
-    <h1>Romeu Neto</h1>
-  </nav>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Portfolio</title>
+        <meta name="description" content="">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style type="text/tailwindcss">
+           @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    <p id="spacer"s></p>
+.card-zoom {
+  @apply  flex items-center justify-center m-3 overflow-hidden shadow-xl  rounded-2xl;
+}
+.card-zoom-image {
+  @apply   transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
 
-    <p id="ola">Olá o meu nome é Romeu!</p>
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
+}
 
-    <div id="textocorpo">
-    <p class="corpo"><b>Adoro desenhar, criar experiências e jogar jogos de cartas.</b> Estou sempre interessado em narrativas e gosto de analisar e entender o processo criativo de toda a media que me rodeia.</p>
-    <p class="corpo">Embora por vezes tenha um tom sério naum sou de todo.</p>
+          </style>
+    </head>
+    <body class="bg-slate-700 ">
+        <div class="lg:content-auto">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="flex items-center justify-between px-4 py-2 bg-slate-800 mb-6">
+            <div class="flex items-center">
+              <img
+                src="Assets/Images/cipango logo white.png"
+                width="160"
+                alt=""
+                class="mr-2"
+              />
+              <strong class="text-neutral-50">Illustrations</strong>
+            </div>
+            <nav>
+              <button
+                class="px-4 py-2 font-bold text-white bg-slate-600 rounded hover:bg-slate-500"
+              >
+                Projects
+              </button>
+              <button
+                class="px-4 py-2 font-bold text-white bg-slate-600 rounded hover:bg-slate-500"
+              >
+                Coding/VFX
+              </button>
+              <button
+                class="px-4 py-2 font-bold text-white bg-slate-600 rounded hover:bg-slate-500"
+              >
+                Contact Me
+              </button>
+            </nav>
+          </header>
     </div>
+        <div class=" gap-8 columns-2 mx-8 mb-6">
+            <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Illustrationgrav.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/cot 3.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images//Scenario prespetiva 1.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Scenario prespetiva 2.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Poster artwork 1.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Poster artwork 2.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Scenario 1.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/ct.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Nightrose Desktop.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/gwentd (1).png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Feltyrosa edited.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Knight scenario.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Illustration (1).png" alt="">
+              </div>
+            </div>
+            <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Knight scenario.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Illustration bare.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/thingls2.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/Illustration2.png" alt="">
+                </div>
+              </div>
+              <div class="card-zoom">
+                <div class="card-zoom-image">
+                    <img class="w-full aspect-auto mb-6 rounded-2xl" src="Assets/Images/AnimationAttack.gif" alt="">
+                </div>
+              </div>
 
-    <div class="gifs">
-      <img width="560" src="https://media.tenor.com/gXlfRKhHFLEAAAAS/moist-critical-penguinz0.gif" alt="">
-      <img width="560" src="https://c.tenor.com/5yqYZonKQuYAAAAS/chupapi-chu.gif">
-  
-    </div>
-  
-    <p>
-
-    </p>
-
-    
-    
-<audio src="https://cdn.discordapp.com/attachments/806127760543449110/1027537889573220492/TikTok_snoring_ORIGINAL_MEME_SOUND_EFFECT.mp3" autoplay="false" controls loop="loop" id="MusicPlayer" >
-    <embed src="https://cdn.discordapp.com/attachments/806127760543449110/1027537889573220492/TikTok_snoring_ORIGINAL_MEME_SOUND_EFFECT.mp3" autoplay="false" width="450" height="300" name="MusicPlayer" id="MusicPlayer">
-    </audio>
-<p>
-Esta Página é...
-</p>
-    <fieldset>
-      <div>
-        <input type="radio" id="Incrível" name="drone" value="Incrível" checked />
-        <label for="Incrível">Incrível</label>
-      </div>
-
-      <div>
-        <input type="radio" id="Maravilhosa" name="drone" value="Maravilhosa" />
-        <label for="Maravilhosa">Maravilhosa</label>
-      </div>
-    </fieldset>
-
-    <span>E agora devo dizer...</span><strong>Adeus</strong>
-    <p>
-
-    </p>
-    
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sBmjUoB5OPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+        </div>
+        
+    </body>
 </html>
